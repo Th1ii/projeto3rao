@@ -3,7 +3,7 @@
 :root{
     --cor-de-fundo: #bd1f1f;
     --branco: #ffffff;
-    --cor-texto: #FFF500;
+    --cor-texto: #eee83e;
     --cor-blocos: #3A375E;
 }
 
@@ -18,4 +18,13 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0%;
+}
+
+.titulo-principal{
+    text-align: left;
+    width: 100%;
+    font-size: 32px;
 }
