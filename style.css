@@ -2,10 +2,13 @@
 
 :root{
     --cor-de-fundo: #3FF8EC;
+    --branco: #ffffff;
     --cor-texto: #6FFF57;
     --cor-blocos: #3A375E;
 }
 
 body{
     background-color: var(--cor-de-fundo);
+    color: var(--branco);
+    font-family: 'Chakra Petch', sans-serif;
 }
