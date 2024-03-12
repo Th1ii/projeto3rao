@@ -5,6 +5,7 @@
     --branco: #ffffff;
     --cor-texto: #eee83e;
     --cor-blocos: #3A375E;
+    --cor-botao-ativo: #94FF0D;
 }
 
 body{
@@ -43,6 +44,28 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--botao);
+    border-bottom: 4px solid var(--cor-botao-ativo);
+    border-left: 2px solid var(--cor-botao-ativo);
+    border-right: 2px solid var(--cor-botao-ativo);[
+    border-top: none;
 }
+.botao:first-child{
+    border-radius: 40px 40px 0 0;
+}
+.botoes{
+    display: block;
+}
+@media screen and {min-width: 768px) {
+    .botoes{
+        display: flex;
+    }
+    .botao:first-child{
+        border-radius: 40px 0 0 0;
+    }
+    .botao:first-child{
+        border-radius: 0 40px 0 0;
+    }
+}
+    
+
 
