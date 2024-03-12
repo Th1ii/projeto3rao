@@ -5,7 +5,8 @@
     --branco: #ffffff;
     --cor-texto: #eee83e;
     --cor-blocos: #3A375E;
-    --cor-botao-ativo: #94FF0D;
+    --cor-botao-ativo: #FD2F2F;
+    --cor-botao-linha: 94FF0D;
 }
 
 body{
@@ -44,9 +45,9 @@ body{
     font-size: 18px;
     align-items: center;
     width: 100%;
-    border-bottom: 4px solid var(--cor-botao-ativo);
-    border-left: 2px solid var(--cor-botao-ativo);
-    border-right: 2px solid var(--cor-botao-ativo);
+    border-bottom: 4px solid var(--cor-botao-linha);
+    border-left: 2px solid var(--cor-botao-linha);
+    border-right: 2px solid var(--cor-botao-linha);
     border-top: none;
 }
 .botao:first-child{
@@ -55,6 +56,10 @@ body{
 
 .botoes {
      display: block;
+}
+.ativo{
+    background-color: var(--cor-botao-ativo);
+    border-bottom: 4px solid var(--branco);
 }
 @media screen and (min-width: 768px) {
      .botoes { display: flex;
